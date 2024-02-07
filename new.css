@@ -6,7 +6,7 @@
 body {
   font-family: "Varela Round", "Quicksand", sans-serif;
   background: url(background.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-color: black;
 }
@@ -106,6 +106,7 @@ p {
   font-size: 22px;
   font-family: cursive;
   font-weight: 540;
+  color: white;
 }
 .ullu {
   font-size: 25px;
@@ -116,17 +117,15 @@ p {
 @media (min-width: 601px) {
     body {
       background: url(background.jpg);
-      background-size: auto;
+      background-size: cover;
        background-repeat: no-repeat;
-       background-position: center;
     }
   }
   
   @media (max-width: 600px) {
     body {      
        background: url(background.jpg);
-       background-size: auto;
+       background-size: cover;
        background-repeat: no-repeat;
-       background-position: center;
     }
   }
